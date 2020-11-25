@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29721.120
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7271F8CF-C4EC-47FE-91F3-FF3331482C4F}"
+	ProjectSection(SolutionItems) = preProject
+		appveyor.yml = appveyor.yml
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cogito.Seq", "Cogito.Seq\Cogito.Seq.csproj", "{5277E2FC-4772-4FA6-B463-F64C6BD020C7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cogito.Seq.Autofac", "Cogito.Seq.Autofac\Cogito.Seq.Autofac.csproj", "{22DAF356-6F10-45EA-A435-26DDEA0C56AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5277E2FC-4772-4FA6-B463-F64C6BD020C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5277E2FC-4772-4FA6-B463-F64C6BD020C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5277E2FC-4772-4FA6-B463-F64C6BD020C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5277E2FC-4772-4FA6-B463-F64C6BD020C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22DAF356-6F10-45EA-A435-26DDEA0C56AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22DAF356-6F10-45EA-A435-26DDEA0C56AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22DAF356-6F10-45EA-A435-26DDEA0C56AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22DAF356-6F10-45EA-A435-26DDEA0C56AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF4B3820-4206-4316-82A5-DEA5792C6A71}
+	EndGlobalSection
+EndGlobal
