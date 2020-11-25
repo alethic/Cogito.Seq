@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <Description>Various utilities for Seq.</Description>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Cogito.Serilog" Version="2.0.17" />
+      <PackageReference Include="Microsoft.Extensions.Options" Version="5.0.0" />
+      <PackageReference Include="Serilog.Sinks.Seq" Version="4.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Cogito.Seq\Cogito.Seq.csproj" />
+    </ItemGroup>
+
+</Project>
