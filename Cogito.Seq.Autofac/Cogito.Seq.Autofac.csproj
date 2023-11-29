@@ -7,8 +7,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Cogito.Autofac" Version="5.0.0" />
-        <PackageReference Include="Cogito.Extensions.Options.Configuration.Autofac" Version="2.0.19" />
+        <PackageReference Include="Cogito.Autofac" Version="5.0.4" />
+        <PackageReference Include="Cogito.Extensions.Options.Configuration.Autofac" Version="3.0.3" />
     </ItemGroup>
 
     <ItemGroup>
