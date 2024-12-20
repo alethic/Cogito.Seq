@@ -1,14 +1,14 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
         <Description>Various utilities for Seq.</Description>
-        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Cogito.Autofac" Version="5.0.4" />
-        <PackageReference Include="Cogito.Extensions.Options.Configuration.Autofac" Version="3.0.3" />
+        <PackageReference Include="Cogito.Serilog" Version="3.0.0" />
+        <PackageReference Include="Microsoft.Extensions.Options" Version="7.0.1" />
+        <PackageReference Include="Serilog.Sinks.Seq" Version="5.2.3" />
     </ItemGroup>
 
     <ItemGroup>
