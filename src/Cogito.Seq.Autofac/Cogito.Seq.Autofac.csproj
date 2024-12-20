@@ -6,8 +6,9 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Cogito.Autofac" Version="5.0.4" />
-        <PackageReference Include="Cogito.Extensions.Options.Configuration.Autofac" Version="3.0.3" />
+        <PackageReference Include="Cogito.Autofac" Version="6.0.0" />
+        <PackageReference Include="Cogito.Extensions.Options.Configuration.Autofac" Version="4.0.0" />
+        <PackageReference Include="Microsoft.Extensions.Options" Version="8.0.2" />
     </ItemGroup>
 
     <ItemGroup>
