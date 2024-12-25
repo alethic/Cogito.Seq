@@ -30,11 +30,15 @@ namespace Cogito.Seq.Serilog
 
         public LoggerConfiguration Apply(LoggerConfiguration configuration)
         {
-            if (options.Value != null && !string.IsNullOrEmpty(options.Value.ServerUrl) && !string.IsNullOrEmpty(options.Value.ApiKey))
+            if (options.Value != null && !string.IsNullOrEmpty(options.Value.ServerUrl))
             {
+                var apiKey = options.Value.ApiKey;
+                if (string.IsNullOrWhiteSpace(apiKey))
+                    apiKey = null;
+
                 var controlLevelSwitch = new LoggingLevelSwitch(LogEventLevel.Verbose);
                 configuration = configuration.MinimumLevel.ControlledBy(controlLevelSwitch);
-                return configuration.WriteTo.Seq(options.Value.ServerUrl, apiKey: options.Value.ApiKey, controlLevelSwitch: controlLevelSwitch);
+                return configuration.WriteTo.Seq(options.Value.ServerUrl, apiKey: apiKey, controlLevelSwitch: controlLevelSwitch);
             }
 
             return configuration;
