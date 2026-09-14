@@ -9,7 +9,7 @@ Publishes 4 packages: `Cogito.Seq`, `Cogito.Seq.Autofac`, `Cogito.Seq.Serilog`, 
 ## Build and test
 
 ```shell
-dotnet restore Cogito.Seq.sln
+dotnet restore Cogito.Seq.slnx
 dotnet msbuild -p:Configuration=Release Cogito.Seq.dist.msbuildproj
 ```
 

@@ -19,7 +19,7 @@ Each package carries its own README with the detail; the links above go to nuget
 ## Building
 
 ```shell
-dotnet restore Cogito.Seq.sln
+dotnet restore Cogito.Seq.slnx
 dotnet msbuild -p:Configuration=Release Cogito.Seq.dist.msbuildproj
 ```
 
